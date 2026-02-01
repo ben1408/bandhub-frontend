@@ -1,0 +1,41 @@
+.all-bands-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background: #1E1E1E;
+    padding: 20px;
+}
+
+.all-bands-title {
+    color: #00BCD4;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.all-bands-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.loading-text {
+    color: #F5F5F5;
+    font-size: 1.2rem;
+    margin-top: 50px;
+}
+
+@media (max-width: 768px) {
+    .all-bands-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+    }
+
+    .all-bands-container {
+        padding: 10px;
+    }
+}

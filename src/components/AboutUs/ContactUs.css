@@ -1,0 +1,27 @@
+/* ContactUs.css - Modern, professional footer contact section */
+
+.contact-footer {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #1E1E1E 0%, #2A2A2A 100%);
+    border-top: 2px solid grey;
+    box-shadow: 0 -4px 32px 0 rgba(0, 0, 0, 0.18);
+}
+
+@media (max-width: 900px) {
+    .contact-footer {
+        padding: 1.5rem 0.5rem;
+    }
+}
+
+.contact-footer a {
+    color: #00BCD4;
+    text-decoration: none;
+}
+
+.contact-footer a:hover {
+    text-decoration: underline;
+}

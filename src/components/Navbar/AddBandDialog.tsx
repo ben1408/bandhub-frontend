@@ -8,7 +8,6 @@ const AddBandDialog: React.FC<AddBandDialogProps> = ({
     open,
     onClose,
     formData,
-    setFormData,
     members,
     setMembers,
     memberForm,

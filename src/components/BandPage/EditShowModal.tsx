@@ -4,7 +4,7 @@ import { Dialog, DialogTitle, DialogContent, DialogActions, TextField, IconButto
 import CloseIcon from '@mui/icons-material/Close';
 import type { Venue, EditShowModalProps } from '../../types';
 
-const EditShowModal = ({ open, show, onClose, onShowUpdated, bandId }: EditShowModalProps) => {
+const EditShowModal = ({ open, show, onClose, onShowUpdated }: EditShowModalProps) => {
     const [formData, setFormData] = useState({
         venueId: show.venue._id,
         date: show.date ? new Date(show.date).toISOString().slice(0, 16) : '',

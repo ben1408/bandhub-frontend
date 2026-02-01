@@ -7,7 +7,7 @@ import HamburgerMenu from './HamburgerMenu';
 import type { NavbarProps } from '../../types';
 
 
-const Navbar = ({ setIsAddedBand }: NavbarProps) => {
+const Navbar = (_props: NavbarProps) => {
     const navigate = useNavigate();
     const [username, setUsername] = useState(localStorage.getItem('username'));
     const [isAdmin, setIsAdmin] = useState(localStorage.getItem('isAdmin') === 'true');

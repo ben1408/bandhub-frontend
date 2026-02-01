@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import './home.css'
+import './Home.css'
 import { BandCard } from '../BandCard/BandCard';
 import { useBandPage } from '../../context/BandPageContext';
 import type { Band, Album } from '../../types';
